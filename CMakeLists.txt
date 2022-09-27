@@ -912,6 +912,7 @@ if(NOT "${CMAKE_SYSTEM_NAME}" STREQUAL "Android")
     set(TS_FILES
         translation/lang_de_DE.ts
         translation/lang_en.ts
+        translation/lang_zh_CN.ts
         )
     # adds the translations and a target for it
 
