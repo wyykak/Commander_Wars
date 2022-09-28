@@ -63,7 +63,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_ACTIVATE_TAGPOWER.js" line="44"/>
         <source>Activates the superpower of both CO&apos;s. Read the CO&apos;s superpower for more information. This will also apply the Tagpower-Synergy. </source>
-        <translation>同时激活两个CO的超级能力。阅读CO的超级能力说明来获得更多信息。同时协同能力加成也会生效。</translation>
+        <translation type="unfinished">同时激活两个CO的超级能力，协同能力加成也会同时生效。阅读CO的超级能力说明来获得更多信息。</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_ACTIVATE_TAGPOWER.js" line="45"/>
@@ -172,17 +172,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_CANNON_FIRE.js" line="17"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_CANNON_FIRE.js" line="88"/>
         <source>Damage</source>
-        <translation type="unfinished"></translation>
+        <translation>伤害</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_CANNON_FIRE.js" line="125"/>
         <source>Orders a minicannon or black cannon to attack a single unit to deal some damage to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令一个小型加农炮或黑色加农炮对一个单位进行攻击并造成伤害。</translation>
     </message>
 </context>
 <context>
@@ -190,12 +190,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_CAPTURE.js" line="59"/>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>占领</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_CAPTURE.js" line="142"/>
         <source>Orders a unit to capture a building. Once the resistant is reduced to 0 the building  will generate effects for your army based on the captured building.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令一个单位占领一座建筑。当该建筑的抵抗下降到0时，该建筑将被占领，并为你的军队产生附加效果。</translation>
     </message>
 </context>
 <context>
@@ -203,12 +203,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_CO_UNIT_0.js" line="32"/>
         <source>CO 1</source>
-        <translation type="unfinished"></translation>
+        <translation>CO 1</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_CO_UNIT_0.js" line="50"/>
         <source>Deploys your first co onto the given unit. All units inside the co range of this unit will get the buff of your first co.</source>
-        <translation type="unfinished"></translation>
+        <translation>将你的第一个CO部署给指定的单位。这个单位的CO范围内的所有单位都将获得你的第一个CO的增益。</translation>
     </message>
 </context>
 <context>
@@ -216,12 +216,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_CO_UNIT_1.js" line="32"/>
         <source>CO 2</source>
-        <translation type="unfinished"></translation>
+        <translation>CO 2</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_CO_UNIT_1.js" line="50"/>
         <source>Deploys your second co onto the given unit. All units inside the co range of this unit will get the buff of your second co.</source>
-        <translation type="unfinished"></translation>
+        <translation>将你的第二个CO部署给指定的单位。这个单位的CO范围内的所有单位都将获得你的第二个CO的增益。</translation>
     </message>
 </context>
 <context>
@@ -229,12 +229,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_CRYSTALL_HEAL.js" line="17"/>
         <source>Heal</source>
-        <translation type="unfinished"></translation>
+        <translation>治疗</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_CRYSTALL_HEAL.js" line="64"/>
         <source>Orders a crystall or monolith to heal all own units around it and also refills their ammo and fuel.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令一个水晶或巨石治疗周围的我方单位，并补充弹药和燃料。</translation>
     </message>
 </context>
 <context>
@@ -242,12 +242,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_DEATHRAY_FIRE.js" line="17"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_DEATHRAY_FIRE.js" line="81"/>
         <source>Orders a death ray to attack all enemy units in front of it, dealing devastating damage to them. This order has a cooldown of 7 days.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令死亡射线攻击前方的所有敌方单位并造成毁灭性的伤害。这个命令的冷却时间为7天。</translation>
     </message>
 </context>
 <context>
@@ -255,7 +255,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_DELETE_UNIT.js" line="23"/>
         <source>Delete Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>删除单位</translation>
     </message>
 </context>
 <context>
@@ -263,12 +263,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_DISABLE_MINE.js" line="56"/>
         <source>Remove mine</source>
-        <translation type="unfinished"></translation>
+        <translation>移除地雷</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_DISABLE_MINE.js" line="91"/>
         <source>Destroys a mine without it damaging another unit.</source>
-        <translation type="unfinished"></translation>
+        <translation>摧毁地雷且不造成伤害。</translation>
     </message>
 </context>
 <context>
@@ -276,7 +276,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_EXITGAME.js" line="9"/>
         <source>Exit Game</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭游戏</translation>
     </message>
 </context>
 <context>
@@ -284,12 +284,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_EXPLODE.js" line="25"/>
         <source>Explode</source>
-        <translation type="unfinished"></translation>
+        <translation>爆炸</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_EXPLODE.js" line="118"/>
         <source>Destroys the current unit in a large explosion. The explosion will deal damage to all units around it.</source>
-        <translation type="unfinished"></translation>
+        <translation>大爆炸将会摧毁对象的单位。并且大爆炸会对周围的单位造成伤害。</translation>
     </message>
 </context>
 <context>
@@ -297,32 +297,33 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_FIRE.js" line="86"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_FIRE.js" line="493"/>
         <source>Damage</source>
-        <translation type="unfinished"></translation>
+        <translation>伤害</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_FIRE.js" line="526"/>
         <source>Dmg</source>
-        <translation type="unfinished"></translation>
+        <translation>伤害</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_FIRE.js" line="526"/>
         <source>Min</source>
-        <translation type="unfinished"></translation>
+        <translation>最小</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_FIRE.js" line="526"/>
         <source>Max</source>
-        <translation type="unfinished"></translation>
+        <translation>最大</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_FIRE.js" line="898"/>
         <source>Orders a unit to attack another one. If the attack is a direct attack the enemy unit will counter with an attack of its own.</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>真不是近战攻击吗</translatorcomment>
+        <translation>命令一个单位攻击另一个单位。如果该攻击是直接攻击，敌方单位将会以自身攻击进行反击。</translation>
     </message>
 </context>
 <context>
@@ -330,12 +331,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_FLARE.js" line="23"/>
         <source>Flare</source>
-        <translation type="unfinished"></translation>
+        <translation>照明弹</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_FLARE.js" line="133"/>
         <source>Fires a flare rocket at the given location. The flare rocket will reveal all terrains in an area around the target during fog of war.</source>
-        <translation type="unfinished"></translation>
+        <translation>在指定位置发射照明火箭。在战争迷雾模式中，照明火箭将照亮目标位置周围的所有地形。</translation>
     </message>
 </context>
 <context>
@@ -343,12 +344,13 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_HOELLIUM_WAIT.js" line="27"/>
         <source>Wait</source>
-        <translation type="unfinished"></translation>
+        <translation>待机</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_HOELLIUM_WAIT.js" line="54"/>
         <source>Orders a oozium to wait at the current position and end all actions for this turn. Ooziums can wait on enemy units in doing so the enemy unit gets destroyed by the oozium.</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>oozium未翻译</translatorcomment>
+        <translation>命令一个oozium在当前位置待机并结束本回合的所有行动。oozium可以在敌方单位上待机，那个场合敌方单位将会被oozium摧毁。</translation>
     </message>
 </context>
 <context>
@@ -356,52 +358,52 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="9"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>信息</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="76"/>
         <source>Victory Info</source>
-        <translation type="unfinished"></translation>
+        <translation>胜利信息</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="77"/>
         <source>CO Info</source>
-        <translation type="unfinished"></translation>
+        <translation>CO信息</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="78"/>
         <source>Unit Info</source>
-        <translation type="unfinished"></translation>
+        <translation>单位信息</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="79"/>
         <source>Unit Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>单位统计</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="80"/>
         <source>Game Info</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏信息</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="81"/>
         <source>Attack Log</source>
-        <translation type="unfinished"></translation>
+        <translation>战斗日志</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="82"/>
         <source>Rules</source>
-        <translation type="unfinished"></translation>
+        <translation>规则</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="83"/>
         <source>Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>维基百科</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_INFO.js" line="84"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>计算</translation>
     </message>
 </context>
 <context>
@@ -409,17 +411,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_JOIN.js" line="35"/>
         <source>Join</source>
-        <translation type="unfinished"></translation>
+        <translation>合成</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_JOIN.js" line="111"/>
         <source>Combines a wounded unit of the same type with the current unit. This will lead to a unit with combined ammo, fuel and hp ad the highest rank of both units. </source>
-        <translation type="unfinished"></translation>
+        <translation>将当前单位与同一类型的受伤单位合并。两者的生命值、弹药、燃料数值合并，阶级取两者中的最大值。</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_JOIN.js" line="112"/>
         <source>Hp exceeding the maximum will be added in form of funds to your war funds.</source>
-        <translation type="unfinished"></translation>
+        <translation>超过最大上限的生命值将会转化为资金加入你的战争资金中。</translation>
     </message>
 </context>
 <context>
@@ -427,12 +429,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_LASER_FIRE.js" line="18"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_LASER_FIRE.js" line="124"/>
         <source>Commands the laser to shot four laser rays. The laser rays deal damage to all units that get hit by one of the rays.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令激光发射器发射4束激光。激光将对被其射线击中的所有单位造成伤害。</translation>
     </message>
 </context>
 <context>
@@ -440,12 +442,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_LOAD.js" line="64"/>
         <source>Load</source>
-        <translation type="unfinished">加载</translation>
+        <translation>装载</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_LOAD.js" line="95"/>
         <source>Loads a unit to a transporters. This makes the unit untargetable for most effects. However the units gets lost when the transporter gets destroyed.</source>
-        <translation type="unfinished"></translation>
+        <translation>将单位装载到运输车上。这将使该单位在大多数效果中不可被选为对象。当运输车被摧毁时，乘载的单位将会一起损失。</translation>
     </message>
 </context>
 <context>
@@ -453,7 +455,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_LOADGAME.js" line="9"/>
         <source>Load Game</source>
-        <translation type="unfinished"></translation>
+        <translation>读取游戏</translation>
     </message>
 </context>
 <context>
@@ -461,12 +463,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_MISSILE.js" line="35"/>
         <source>Missile</source>
-        <translation type="unfinished"></translation>
+        <translation>导弹</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_MISSILE.js" line="140"/>
         <source>Launches a missile from a silo at the target area. The missile deals massive damage to all units in the area of effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>从发射井向目标区域发射导弹。导弹将对影响范围内的所有单位造成巨大伤害。</translation>
     </message>
 </context>
 <context>
@@ -474,7 +476,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_MOVEMENTPLANNER.js" line="9"/>
         <source>Planner</source>
-        <translation type="unfinished"></translation>
+        <translation>规划器</translation>
     </message>
 </context>
 <context>
@@ -482,17 +484,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_FACTORY_DOOR.js" line="22"/>
         <source>Build Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>建造单位</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_FACTORY_DOOR.js" line="116"/>
         <source>Orders the Nest to produce a none naval unit. </source>
-        <translation type="unfinished"></translation>
+        <translation>命令鸟巢生产一个非海军单位。</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_FACTORY_DOOR.js" line="117"/>
         <source>The unit is able to move immediatly.</source>
-        <translation type="unfinished"></translation>
+        <translation>生产出的单位可以立刻移动。</translation>
     </message>
 </context>
 <context>
@@ -500,12 +502,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_LASER.js" line="18"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_LASER.js" line="57"/>
         <source>Commands the laser to shot a ray. The laser rays deal damage to all units that get hit.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令激光发射器发射1束激光。激光将对被击中的所有单位造成伤害。</translation>
     </message>
 </context>
 <context>
@@ -513,12 +515,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_MORTAR.js" line="18"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEST_MORTAR.js" line="89"/>
         <source>Commands the mortar to fire at a 3x3 square and deals damage to all units.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令迫击炮向3x3的区域开火，对那个范围内的所有单位造成伤害。</translation>
     </message>
 </context>
 <context>
@@ -526,12 +528,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEXT_PLAYER.js" line="10"/>
         <source>Next Player</source>
-        <translation type="unfinished"></translation>
+        <translation>下一个玩家</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_NEXT_PLAYER.js" line="26"/>
         <source>Ends your turn and gives control to the next player.</source>
-        <translation type="unfinished"></translation>
+        <translation>结束你的回合并将控制权移交给下一个玩家。</translation>
     </message>
 </context>
 <context>
@@ -539,7 +541,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_NICKNAME_UNIT.js" line="14"/>
         <source>Nickname Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>对单位命名</translation>
     </message>
 </context>
 <context>
@@ -547,17 +549,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_OPTIONS.js" line="9"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>选项</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_OPTIONS.js" line="49"/>
         <source>Game Options</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏设置</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_OPTIONS.js" line="50"/>
         <source>Music</source>
-        <translation type="unfinished"></translation>
+        <translation>音乐</translation>
     </message>
 </context>
 <context>
@@ -565,12 +567,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_PLACE_WATERMINE.js" line="62"/>
         <source>Place Mine</source>
-        <translation type="unfinished"></translation>
+        <translation>放置地雷</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_PLACE_WATERMINE.js" line="137"/>
         <source>Places a stealthed Watermine at a given Position. The Mine automatically explodes at the start of a turn if an enemy is in explosion range.</source>
-        <translation type="unfinished"></translation>
+        <translation>在指定位置放置隐藏的水雷。如果敌方单位在爆炸范围内，水雷将会在回合开始时自动引爆。</translation>
     </message>
 </context>
 <context>
@@ -578,7 +580,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SAVEGAME.js" line="9"/>
         <source>Save Game</source>
-        <translation type="unfinished"></translation>
+        <translation>保存游戏</translation>
     </message>
 </context>
 <context>
@@ -586,12 +588,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SELL_UNIT.js" line="27"/>
         <source>Sell Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>出售单位</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SELL_UNIT.js" line="99"/>
         <source>Sells a unit for a fraction of it&apos;s current value.</source>
-        <translation type="unfinished"></translation>
+        <translation>以当前价值的一部分价格出售单位。</translation>
     </message>
 </context>
 <context>
@@ -599,22 +601,22 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_STEALTH.js" line="25"/>
         <source>Stealth</source>
-        <translation type="unfinished"></translation>
+        <translation>隐身</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_STEALTH.js" line="68"/>
         <source>Stealths a unit and makes it invisible to all enemies. A stealthed unit is only visible when a unit is nearby it. In addition only units of the same Unit Type </source>
-        <translation type="unfinished"></translation>
+        <translation>令一个单位隐身，使其对所有敌人都不可见。隐身单位只有与其相同类型的单位在其附近时才可见。</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_STEALTH.js" line="69"/>
         <source> Ground, Naval or Air</source>
-        <translation type="unfinished"></translation>
+        <translation>陆军、海军或空军</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_STEALTH.js" line="70"/>
         <source> can attack it. In most cases stealthed units have a higher fuel consumption per turn, while beeing stealthed.</source>
-        <translation type="unfinished"></translation>
+        <translation>可以攻击他。在大多数情况下，单位在隐身时，每回合会消耗更多的燃料。</translation>
     </message>
 </context>
 <context>
@@ -622,12 +624,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_CLOAK.js" line="17"/>
         <source>Cloak</source>
-        <translation type="unfinished"></translation>
+        <translation>伪装</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_CLOAK.js" line="92"/>
         <source>Cloaks all own units.</source>
-        <translation type="unfinished"></translation>
+        <translation>给我方所有的单位都附加伪装</translation>
     </message>
 </context>
 <context>
@@ -635,7 +637,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION.js" line="59"/>
         <source>Ration</source>
-        <translation type="unfinished"></translation>
+        <translation>补给</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION.js" line="108"/>
@@ -643,12 +645,12 @@
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION.js" line="145"/>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION.js" line="163"/>
         <source>RATION</source>
-        <translation type="unfinished"></translation>
+        <translation>补给</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION.js" line="176"/>
         <source>Refills fuel and ammo to all units surrounding this unit.</source>
-        <translation type="unfinished"></translation>
+        <translation>为该单位周围的所有单位补充燃料和弹药。</translation>
     </message>
 </context>
 <context>
@@ -656,7 +658,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION_MONEY.js" line="59"/>
         <source>Ration</source>
-        <translation type="unfinished"></translation>
+        <translation>补给</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION_MONEY.js" line="125"/>
@@ -664,12 +666,12 @@
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION_MONEY.js" line="192"/>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION_MONEY.js" line="225"/>
         <source>RATION</source>
-        <translation type="unfinished"></translation>
+        <translation>补给</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTALL_RATION_MONEY.js" line="241"/>
         <source>Refills fuel and ammo to all units surrounding this unit and grants money based on the amount of resupply.</source>
-        <translation type="unfinished"></translation>
+        <translation>为该单位周围的所有单位补充燃料和弹药，并根据补给量消耗资金。</translation>
     </message>
 </context>
 <context>
@@ -677,17 +679,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_FREEREPAIR.js" line="26"/>
         <source>Repair</source>
-        <translation type="unfinished"></translation>
+        <translation>维修</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_FREEREPAIR.js" line="111"/>
         <source>REPAIR</source>
-        <translation type="unfinished"></translation>
+        <translation>维修</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_FREEREPAIR.js" line="124"/>
         <source>Repairs and refills the target unit. The repair costs don&apos;t have to be paid.</source>
-        <translation type="unfinished"></translation>
+        <translation>维修并重新填装目标单位。并且不需要支付维修费用。</translation>
     </message>
 </context>
 <context>
@@ -695,17 +697,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_IRON_SHIELD.js" line="26"/>
         <source>Iron Shield</source>
-        <translation type="unfinished"></translation>
+        <translation>钢铁护盾</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_IRON_SHIELD.js" line="109"/>
         <source>DEFENSE</source>
-        <translation type="unfinished"></translation>
+        <translation>防御</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_IRON_SHIELD.js" line="122"/>
         <source>Shields an allied unit. This highly increases the defense of the unit until the start of the next turn.</source>
-        <translation type="unfinished"></translation>
+        <translation>保护一个我方单位。直到下一个回合开始，该单位的防御力将获得极大的提高。</translation>
     </message>
 </context>
 <context>
@@ -713,17 +715,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_REPAIR.js" line="26"/>
         <source>Repair</source>
-        <translation type="unfinished"></translation>
+        <translation>维修</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_REPAIR.js" line="111"/>
         <source>REPAIR</source>
-        <translation type="unfinished"></translation>
+        <translation>维修</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_REPAIR.js" line="124"/>
         <source>Repairs and refills the target unit. The player has to pay for the repair.</source>
-        <translation type="unfinished"></translation>
+        <translation>维修并重新填装目标单位。玩家需要支付维修费用。</translation>
     </message>
 </context>
 <context>
@@ -731,17 +733,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_SUPPLY.js" line="27"/>
         <source>Ration</source>
-        <translation type="unfinished"></translation>
+        <translation>补给</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_SUPPLY.js" line="113"/>
         <source>RATION</source>
-        <translation type="unfinished"></translation>
+        <translation>补给</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_SUPPORTSINGLE_SUPPLY.js" line="125"/>
         <source>Refills the target unit.</source>
-        <translation type="unfinished"></translation>
+        <translation>重新填装目标单位。</translation>
     </message>
 </context>
 <context>
@@ -749,7 +751,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SURRENDER.js" line="9"/>
         <source>Surrender Game</source>
-        <translation type="unfinished"></translation>
+        <translation>放弃游戏</translation>
     </message>
 </context>
 <context>
@@ -757,7 +759,7 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_SWAP_COS.js" line="10"/>
         <source>Swap CO&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>替换CO</translation>
     </message>
 </context>
 <context>
@@ -765,12 +767,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_TALON_GUN.js" line="17"/>
         <source>Fire</source>
-        <translation type="unfinished"></translation>
+        <translation>开火</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_TALON_GUN.js" line="68"/>
         <source>Fire with Talon Gun</source>
-        <translation type="unfinished"></translation>
+        <translation>用林鸮炮开火</translation>
     </message>
 </context>
 <context>
@@ -778,17 +780,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_TRANSFER_UNIT.js" line="39"/>
         <source>Transfer Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>转移单位</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_TRANSFER_UNIT.js" line="85"/>
         <source>Player </source>
-        <translation type="unfinished"></translation>
+        <translation>玩家</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_TRANSFER_UNIT.js" line="121"/>
         <source>Transfers a unit to another allied player.</source>
-        <translation type="unfinished"></translation>
+        <translation>将单位转移给另一个玩家。</translation>
     </message>
 </context>
 <context>
@@ -796,12 +798,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_TRAP.js" line="30"/>
         <source>TRAP!</source>
-        <translation type="unfinished"></translation>
+        <translation>陷阱！</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_TRAP.js" line="130"/>
         <source>This action can&apos;t be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>该行动无法禁止。</translation>
     </message>
 </context>
 <context>
@@ -809,17 +811,17 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_UNLOAD.js" line="103"/>
         <source>Unload</source>
-        <translation type="unfinished"></translation>
+        <translation>卸载</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_UNLOAD.js" line="271"/>
         <source>Wait</source>
-        <translation type="unfinished"></translation>
+        <translation>待机</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_UNLOAD.js" line="351"/>
         <source>Unloads loaded units. Units that have been loaded this turn can&apos;t move. Units that were loaded in previous turns can immediatly move after beeing unloaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>卸载装载的单位。本回合才装载的单位无法进行行动。在先前回合进行装载的单位在卸载后可以立即行动。</translation>
     </message>
 </context>
 <context>
@@ -827,12 +829,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_UNSTEALTH.js" line="25"/>
         <source>Unstealth</source>
-        <translation type="unfinished"></translation>
+        <translation>解除隐身</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_UNSTEALTH.js" line="68"/>
         <source>Unstealths a unit and makes it visible to all enemies.</source>
-        <translation type="unfinished"></translation>
+        <translation>解除一个单位的隐身状态并使其对所有敌人可见。</translation>
     </message>
 </context>
 <context>
@@ -840,12 +842,12 @@
     <message>
         <location filename="../resources/scripts/actions/ACTION_WAIT.js" line="25"/>
         <source>Wait</source>
-        <translation type="unfinished"></translation>
+        <translation>待机</translation>
     </message>
     <message>
         <location filename="../resources/scripts/actions/ACTION_WAIT.js" line="47"/>
         <source>Orders a unit to wait at the current position and end all actions for this turn.</source>
-        <translation type="unfinished"></translation>
+        <translation>命令一个单位在当前位置待机，并结束本回合的所有行动。</translation>
     </message>
 </context>
 <context>
@@ -957,12 +959,12 @@
     <message>
         <location filename="../resources/scripts/terrain/BEACH.js" line="16"/>
         <source>Beach</source>
-        <translation type="unfinished"></translation>
+        <translation>沙滩</translation>
     </message>
     <message>
         <location filename="../resources/scripts/terrain/BEACH.js" line="206"/>
         <source>Beachs over great landing places for landing ground troops.</source>
-        <translation type="unfinished"></translation>
+        <translation>沙滩为地面部队提供了良好的登陆地点。</translation>
     </message>
 </context>
 <context>
@@ -1215,12 +1217,12 @@
     <message>
         <location filename="../resources/scripts/terrain/CREEPER.js" line="15"/>
         <source>Creeper</source>
-        <translation type="unfinished"></translation>
+        <translation>菌毯</translation>
     </message>
     <message>
         <location filename="../resources/scripts/terrain/CREEPER.js" line="107"/>
         <source>A virus infested tile which deals 1HP of damage to each unit standing on it at the beginning of each day.</source>
-        <translation type="unfinished"></translation>
+        <translation>一种被病毒感染的地形格，会在每天开始时对其上的单位造成1点伤害。</translation>
     </message>
 </context>
 <context>
@@ -3281,381 +3283,381 @@ Distributed: Units are spawned at the given rate.</source>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="60"/>
         <source>Screen Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>显示模式：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="68"/>
         <source>Selects the screen mode for the game.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择游戏的显示模式。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="79"/>
         <source>Brightness:</source>
-        <translation type="unfinished"></translation>
+        <translation>亮度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="87"/>
         <source>Selects the brightness for the game.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择游戏的亮度。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="99"/>
         <source>Gamma:</source>
-        <translation type="unfinished"></translation>
+        <translation>伽马值：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="107"/>
         <source>Selects the gamma factor for the game.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择游戏的伽马值。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="119"/>
         <source>Small screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>小屏幕模式：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="126"/>
         <source>If checked several UI elements are hidden and accessible with an additional button. Warning: disabling this on a smaller screen may lead to unplayable game experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>选中该选项会隐藏部分UI元素，可以通过一个额外按钮访问。警告：在较小的屏幕上关闭此选项可能会使游戏不能正常游玩。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="136"/>
         <source>Use High DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>使用高DPI：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="143"/>
         <source>If checked the game will use the high dpi option of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>选中该选项会让游戏使用屏幕的高DPI选项。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="152"/>
         <source>Max FPS:</source>
-        <translation type="unfinished"></translation>
+        <translation>最大帧率：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="160"/>
         <source>Selects the maximum FPS, use it to reduce power consumption on smartphones.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择最大帧率，在智能手机上可以用于节省电量消耗。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="172"/>
         <source>Automatic updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>自动更新：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionvideomenu.xml" line="179"/>
         <source>If checked: The game tries to keep the game at the up to date by. Updating to the latest release if required.</source>
-        <translation type="unfinished"></translation>
+        <translation>选中该选项会让游戏尝试保持版本最新。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="14"/>
         <source>Network Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>网络设置</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="23"/>
         <source>1. dedicated address:</source>
-        <translation type="unfinished"></translation>
+        <translation>首选专用服务器地址：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="31"/>
         <source>Provide the address to the multiplayer game server you want to connect to which is used for the first connection attempt.</source>
-        <translation type="unfinished"></translation>
+        <translation>提供第一次尝试连接时要连接到的多人游戏服务器地址。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="40"/>
         <source>2. dedicated address:</source>
-        <translation type="unfinished"></translation>
+        <translation>备用专用服务器地址：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="48"/>
         <source>Provide the address to the multiplayer game server you want to connect used when the first address fails to connect.</source>
-        <translation type="unfinished"></translation>
+        <translation>提供第一次连接失败时要连接到的备用多人游戏服务器地址。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="57"/>
         <source>Dedicated port:</source>
-        <translation type="unfinished"></translation>
+        <translation>专用服务器端口：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="65"/>
         <source>Selects the port dedicated server use for the lobby chat.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择专用服务器用于聊天大厅的端口。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="77"/>
         <source>Dedicated server:</source>
-        <translation type="unfinished"></translation>
+        <translation>作为专用服务器启动：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="84"/>
         <source>Enables this game as global server.</source>
-        <translation type="unfinished"></translation>
+        <translation>让游戏成为公开服务器。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="93"/>
         <source>Game port:</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏端口：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optionnetworkmenu.xml" line="101"/>
         <source>Selects the game port used to play on a dedicated server or through a direct connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择用于专用服务器或直接连接的游戏端口。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="14"/>
         <location filename="../resources/ui/menu/mainoptionmenu.xml" line="37"/>
         <location filename="../resources/ui/menu/mainoptionmenu.xml" line="38"/>
         <source>Gameplay</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏性</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="23"/>
         <source>Overworld Animations:</source>
-        <translation type="unfinished"></translation>
+        <translation>全局动画：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="30"/>
         <source>If active walk, capture, power animations, etc. will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>选中则移动、占领、能力等动画会显示。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="39"/>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="501"/>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="568"/>
         <source>Battle Animations:</source>
-        <translation type="unfinished"></translation>
+        <translation>战斗动画：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="47"/>
         <source>Select which in-game animations are played.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择游戏内战斗动画是否播放。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="57"/>
         <source>Battle Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>战斗动画类型：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="75"/>
         <source>Dialogs:</source>
-        <translation type="unfinished"></translation>
+        <translation>对话框：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="83"/>
         <source>Selects if dialogs are shown or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择对话框是否显示。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="93"/>
         <source>Capture animations:</source>
-        <translation type="unfinished"></translation>
+        <translation>占领动画：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="101"/>
         <source>Selects if capture animations are shown or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择占领动画是否显示。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="111"/>
         <source>Day 2 Day animations:</source>
-        <translation type="unfinished"></translation>
+        <translation>过日转场动画：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="119"/>
         <source>Selects if the day to day screen gets skipped or not. Note: On fog of war maps the screen is still shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择过日界面是否显示。注意：在有战争迷雾的地图上过日界面始终会显示。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="129"/>
         <source>Movement animations:</source>
-        <translation type="unfinished"></translation>
+        <translation>移动动画：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="137"/>
         <source>Selects if movement animations get shown or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择移动动画是否显示。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="147"/>
         <source>Animation speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>动画速度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="155"/>
         <source>Selects the speed at which basic animations are played.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择基本动画的播放速度。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="167"/>
         <source>Walk animation speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>移动动画速度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="175"/>
         <source>Selects the speed at which units walk across the map.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择单位在地图上移动的动画速度。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="187"/>
         <source>Battle animation speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>战斗动画速度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="195"/>
         <source>Selects the speed at which battle animations are played.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择战斗动画播放的速度。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="207"/>
         <source>Capture animation speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>占领动画速度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="215"/>
         <source>Selects the speed at which capture animations are played.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择占领动画播放的速度。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="227"/>
         <source>Dialog animation Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>对话动画速度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="235"/>
         <source>Selects the speed at which dialog animations are played.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择对话动画播放的速度。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="247"/>
         <source>Multi Turn Plantime:</source>
-        <translation type="unfinished"></translation>
+        <translation>多回合计划时间：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="255"/>
         <source>Selects the amount of turns you can preplan with a unit.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择你能预先计划单位行动的最大回合数。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="267"/>
         <source>Auto end turn:</source>
-        <translation type="unfinished"></translation>
+        <translation>自动结束回合：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="274"/>
         <source>If enabled the game will automatically end your turn if you can&apos;t give any orders anymore.</source>
-        <translation type="unfinished"></translation>
+        <translation>若启用，游戏会在你无命令可下达时自动结束你的回合。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="283"/>
         <source>Detailed battle info:</source>
-        <translation type="unfinished"></translation>
+        <translation>详细战斗信息：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="290"/>
         <source>If enabled the game will show a detailed battle forecast info.</source>
-        <translation type="unfinished"></translation>
+        <translation>若启用，游戏会显示详细的战斗预测信息。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="300"/>
         <source>Auto saving time:</source>
-        <translation type="unfinished"></translation>
+        <translation>自动保存时间：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="308"/>
         <source>Selects the time between auto saves in hours:minutes:seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择两次自动保存间的时间，格式为时：分：秒。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="317"/>
         <source>Auto saving cycle:</source>
-        <translation type="unfinished"></translation>
+        <translation>自动保存循环数：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="325"/>
         <source>Selects the number of auto saves that are kept during games. A value of 0 disables this feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择游戏过程中维持的自动保存数量。设置为0会关闭自动保存。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="337"/>
         <source>Record games:</source>
-        <translation type="unfinished"></translation>
+        <translation>录制游戏：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="344"/>
         <source>If checked: games will be recorded and you can rewatch them in the replay section.</source>
-        <translation type="unfinished"></translation>
+        <translation>若启用，游戏会被录制，你可以在回放模块重新观看游戏过程。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="353"/>
         <source>Menu heigth:</source>
-        <translation type="unfinished"></translation>
+        <translation>菜单高度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="361"/>
         <source>Amount of items per row for in-game menus before a new row is added.</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏中菜单最大每列项目数量。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="373"/>
         <source>Menu width:</source>
-        <translation type="unfinished"></translation>
+        <translation>菜单宽度：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="381"/>
         <source>Amount of columns for in-game menus before a scrollable menu is shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>游戏中菜单在显示滚动条前最大能容纳的列数。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="393"/>
         <source>Shown players:</source>
-        <translation type="unfinished"></translation>
+        <translation>显示玩家数：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="401"/>
         <source>Selects the amount of players shown in-game on the sidebar.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择游戏中侧边栏最多显示的玩家数量。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="413"/>
         <source>Supply warning:</source>
-        <translation type="unfinished"></translation>
+        <translation>补给警告：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="421"/>
         <source>Selects when the supply warnings for ammo and fuel appear.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择弹药和燃料补给警告何时出现。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="433"/>
         <source>Action delay:</source>
-        <translation type="unfinished"></translation>
+        <translation>行动延迟：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="441"/>
         <source>The delay after an action before an ai or replay action gets triggered.</source>
-        <translation type="unfinished"></translation>
+        <translation>行动后AI或回放行动触发的延迟。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="453"/>
         <source>Show pc cursor:</source>
-        <translation type="unfinished"></translation>
+        <translation>显示PC光标：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="460"/>
         <source>If active the Computer&apos;s cursor is hidden during a game, giving you a more Gameboy like feeling.</source>
-        <translation type="unfinished"></translation>
+        <translation>若反选则电脑的光标会在游戏中隐藏，给你一种更像Gameboy的感觉。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="469"/>
         <source>Warp pc cursor:</source>
-        <translation type="unfinished"></translation>
+        <translation>传送PC光标：</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="476"/>
         <source>If active the Computer&apos;s cursor is moved to the first entry when opening menus or similar actions. Only disable this feature if you intend to play using a mouse only.</source>
-        <translation type="unfinished"></translation>
+        <translation>若选中，电脑的光标会在打开菜单时移动到第一个选项上。建议你想只用鼠标游玩时才关闭此选项。</translation>
     </message>
     <message>
         <location filename="../resources/ui/options/optiongameplaymenu.xml" line="485"/>
